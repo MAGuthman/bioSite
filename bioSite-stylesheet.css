@@ -28,10 +28,15 @@ body {
   width: auto;
 }
 
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
+.thumbnail:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 1);
 }
 
 @media screen and (max-width: 1024px) {
